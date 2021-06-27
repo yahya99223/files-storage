@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.7.1.7" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlyingDonkey.Api.Models\FlyingDonkey.Api.Models.csproj" />
+    <ProjectReference Include="..\FlyingDonkey.Storage.DataLayer\FlyingDonkey.Storage.DataLayer.csproj" />
+    <ProjectReference Include="..\FlyingDonkey.Storage.Shared\FlyingDonkey.Storage.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
